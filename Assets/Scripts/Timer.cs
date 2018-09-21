@@ -16,7 +16,7 @@ public class Timer : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        StartTimer();
+        
 	}// End of void Start()
 	
 	// Update is called once per frame
@@ -70,5 +70,5 @@ public class Timer : MonoBehaviour {
         {
             return true;
         }
-    }
-}
+    } // End of public bool()
+} // End of class
