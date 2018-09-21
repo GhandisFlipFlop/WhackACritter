@@ -198,6 +198,7 @@ MonoBehaviour:
   - {fileID: 1319070825}
   - {fileID: 416759536}
   - {fileID: 185737518}
+  - {fileID: 1153185198927080, guid: 6807b3c23b406fe4fbfd909ecebb1114, type: 2}
   critterSpawnFrequency: 1
   scoreDisplay: {fileID: 777317223}
 --- !u!4 &270922063
@@ -488,6 +489,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &880273472
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000458142793380, guid: 6807b3c23b406fe4fbfd909ecebb1114, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000458142793380, guid: 6807b3c23b406fe4fbfd909ecebb1114, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000458142793380, guid: 6807b3c23b406fe4fbfd909ecebb1114, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000458142793380, guid: 6807b3c23b406fe4fbfd909ecebb1114, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000458142793380, guid: 6807b3c23b406fe4fbfd909ecebb1114, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000458142793380, guid: 6807b3c23b406fe4fbfd909ecebb1114, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000458142793380, guid: 6807b3c23b406fe4fbfd909ecebb1114, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000458142793380, guid: 6807b3c23b406fe4fbfd909ecebb1114, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114695383141198468, guid: 6807b3c23b406fe4fbfd909ecebb1114,
+        type: 2}
+      propertyPath: scoreDisplay
+      value: 
+      objectReference: {fileID: 777317223}
+    - target: {fileID: 114695383141198468, guid: 6807b3c23b406fe4fbfd909ecebb1114,
+        type: 2}
+      propertyPath: pointValue
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6807b3c23b406fe4fbfd909ecebb1114, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1319070825 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1468233882331048, guid: 4819b85524dc14b458b2cf1fe76d11f9,
